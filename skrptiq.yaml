@@ -1,9 +1,9 @@
 # --- Identity ---
-id: "a17d0181-b398-47f5-b041-1314978a1ebe"
+id: "5091f6af-cf76-4d71-aac9-9fb935ae804d"
 name: "draft-reply-batch"
 display_name: "Draft Reply"
 description: "Drafts a reply to a single email — runs inside the for_each loop"
-version: "1.0.0"
+version: "1.0.1"
 engine: ">=0.1.0"
 author:
   name: "skrptiq"
