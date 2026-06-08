@@ -1,5 +1,8 @@
 # Release Notes
 
+## v1.0.5
+GH#657 Framing B — republish wave. Bundle now ships `dependencies: []` in its signed manifest (injected by `publish-skrpt.mjs` for `--shared` publishes), so the App's dep-referenced install pipeline (post-PR #47) accepts it on standalone update via Hub Update-all. No content changes.
+
 ## v1.0.4
 GH#657 Framing B integration test — bump as part of validation that publish-skrpt.mjs injects `dependencies: []` into shared-bundle signed yaml. No content changes.
 
